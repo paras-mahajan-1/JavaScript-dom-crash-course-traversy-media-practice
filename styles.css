@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+    padding: 0px
+}
+
+
+.heading {
+    background-color: rgb(71, 71, 71);
+    margin: 0px;
+    height: 100px;
+    width: auto;
+    padding: 20px 80px 20px 80px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.body {
+    /* padding: 8px 80px 80px 80px; */
+    border: 1px solid rgb(71, 71, 71);
+    margin: 8px 80px 80px 80px;
+    height: 400px;
+    width: auto;
+    /* padding: 20px 10px 10px 10px */
+}
+.addingItemSection {
+    margin: 20px 20px 20px 20px;
+    /* padding: 20px 10px 10px 10px */
+}
+.listOfItems {
+    height: 250px;
+    border: 1px solid rgb(71, 71, 71);
+}
+.submitSection {
+    margin: 20px 20px 20px 20px;
+}
+.item {
+    border-bottom: 1px solid rgb(71, 71, 71);
+    padding: 4px 4px 4px 4px
+}
+div.div {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 8px 4px 8px;
+}
