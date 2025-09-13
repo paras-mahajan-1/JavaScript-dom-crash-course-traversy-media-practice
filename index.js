@@ -21,6 +21,26 @@ function addingItems() {
     div.appendChild(clearBtn);
     clearBtn.textContent = "clear"
 
-    clearBtn.addEventListener("click", () => div.parentElement.removeChild(div));
+clearBtn.addEventListener("click", () => div.parentElement.removeChild(div));
 }
 submitButton.addEventListener("click", addingItems)
+
+// // Random practice
+
+// const heading = document.querySelector(".heading");
+// heading.innerHTML = "<a href = '/#/'>Hello</a>"
+
+// console.log(heading.lastElementChild)
+let outsideBox = document.createElement("div");
+document.body.appendChild(outsideBox);
+outsideBox.setAttribute("id", "outside-box")
+let output = document.createElement("div");
+output.setAttribute("id", "mousePosition")
+
+outsideBox.appendChild(output);
+// out
+window.addEventListener("mousemove", (event) => {
+    output.textContent = `ClientX: ${event.clientX}, ClientY: ${event.clientY}`;
+
+})
+

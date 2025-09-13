@@ -43,3 +43,19 @@ div.div {
     justify-content: space-between;
     padding: 4px 8px 4px 8px;
 }
+#mousePosition {
+    background-color: rgb(99, 99, 99);
+    height: 100px; 
+    width: 900px; 
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#outside-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
